@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Mapa(View view){
-        Intent intentMapa = new Intent(this, MapsActivity.class);
+        Intent intentMapa = new Intent(this, GoogleMapsActivity.class);
         startActivity(intentMapa);
     }
 }
