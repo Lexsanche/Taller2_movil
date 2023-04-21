@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Taller2_movil</string>
+    <string name="camera_button">CAMARA</string>
+    <string name="map_button">MAPA</string>
+    <string name="take_button">TAKE</string>
+    <string name="pick_button">PICK FROM GALLERY</string>
+    <string name="video_switch">Video</string>
+    <string name="title_activity_maps">MapsActivity</string>
+</resources>
