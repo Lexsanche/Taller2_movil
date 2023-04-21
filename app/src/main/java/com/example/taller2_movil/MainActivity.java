@@ -1,14 +1,12 @@
 package com.example.taller2_movil;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-import com.example.taller2_movil.databinding.ActivityMainBinding;
+import androidx.appcompat.app.AppCompatActivity;
 
-import java.util.Map;
+import com.example.taller2_movil.databinding.ActivityMainBinding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -29,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void Mapa(View view){
-        Intent intentMapa = new Intent(this, GoogleMapsActivity.class);
+        Intent intentMapa = new Intent(this, MapasActivity.class);
         startActivity(intentMapa);
     }
 }
