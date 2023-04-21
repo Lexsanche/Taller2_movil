@@ -68,7 +68,7 @@
                 android:resource="@xml/file_paths" />
             </provider>
         <activity
-            android:name=".MainActivity"
+            android:name=".MapasActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
